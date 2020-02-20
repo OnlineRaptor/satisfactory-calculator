@@ -508,18 +508,104 @@
             "key_name": "iodine-infused-filter",
             "tier": 7,
             "stack_size": 100
+        },
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Solid Biofuel",
+            "key_name": "solid-biofuel",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "tier": 2,
+            "stack_size": 100
+        },
+        {
+            "name": "Versatile Framework",
+            "key_name": "versatile-framework",
+            "tier": 2,
+            "stack_size": 100
         }
     ],
     "recipes": [
+        {
+            "name": "Versatile Framework",
+            "key_name": "versatile-framework",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                [
+                    "modular-frame",
+                    1
+                ],
+                [
+                    "steel-beam",
+                    12
+                ]
+            ],
+            "product": [
+                "versatile-framework",
+                2
+            ]
+        },
+        {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "category": "crafting2",
+            "time": 30,
+            "ingredients": [
+                [
+                    "reinforced-iron-plate",
+                    1
+                ],
+                [
+                    "rotor",
+                    1
+                ]
+            ],
+            "product": [
+                "smart-plating",
+                1
+            ]
+        },
+        {
+            "name": "Solid Biofuel",
+            "key_name": "solid-biofuel",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                [
+                    "biomass",
+                    8
+                ]
+            ],
+            "product": [
+                "solid-biofuel",
+                4
+            ]
+        },
         {
             "name": "Iron Ingot",
             "key_name": "iron-ingot",
             "category": "smelting1",
             "time": 2,
             "ingredients": [
-                ["iron-ore", 1]
+                [
+                    "iron-ore",
+                    1
+                ]
             ],
-            "product": ["iron-ingot", 1]
+            "product": [
+                "iron-ingot",
+                1
+            ]
         },
         {
             "name": "Alternate: Iron Ingot Alloy",
@@ -527,10 +613,19 @@
             "category": "smelting2",
             "time": 4,
             "ingredients": [
-                ["iron-ore", 1],
-                ["copper-ore", 1]
+                [
+                    "iron-ore",
+                    1
+                ],
+                [
+                    "copper-ore",
+                    1
+                ]
             ],
-            "product": ["iron-ingot", 3]
+            "product": [
+                "iron-ingot",
+                3
+            ]
         },
         {
             "name": "Copper Ingot",
@@ -538,9 +633,15 @@
             "category": "smelting1",
             "time": 2,
             "ingredients": [
-                ["copper-ore", 1]
+                [
+                    "copper-ore",
+                    1
+                ]
             ],
-            "product": ["copper-ingot", 1]
+            "product": [
+                "copper-ingot",
+                1
+            ]
         },
         {
             "name": "Steel Ingot",
@@ -548,10 +649,19 @@
             "category": "smelting2",
             "time": 4,
             "ingredients": [
-                ["iron-ore", 3],
-                ["coal", 3]
+                [
+                    "iron-ore",
+                    3
+                ],
+                [
+                    "coal",
+                    3
+                ]
             ],
-            "product": ["steel-ingot", 2]
+            "product": [
+                "steel-ingot",
+                2
+            ]
         },
         {
             "name": "Alternate: Steel Ingot",
@@ -559,10 +669,19 @@
             "category": "smelting2",
             "time": 8,
             "ingredients": [
-                ["iron-ingot", 3],
-                ["coal", 6]
+                [
+                    "iron-ingot",
+                    3
+                ],
+                [
+                    "coal",
+                    6
+                ]
             ],
-            "product": ["steel-ingot", 6]
+            "product": [
+                "steel-ingot",
+                6
+            ]
         },
         {
             "name": "Alternate: Enriched Steel Ingot",
@@ -570,20 +689,35 @@
             "category": "smelting2",
             "time": 8,
             "ingredients": [
-                ["iron-ore", 6],
-                ["compacted-coal", 3]
+                [
+                    "iron-ore",
+                    6
+                ],
+                [
+                    "compacted-coal",
+                    3
+                ]
             ],
-            "product": ["steel-ingot", 6]
+            "product": [
+                "steel-ingot",
+                6
+            ]
         },
         {
             "name": "Iron Plate",
             "key_name": "iron-plate",
             "category": "crafting1",
-            "time": 4,
+            "time": 6,
             "ingredients": [
-                ["iron-ingot", 2]
+                [
+                    "iron-ingot",
+                    3
+                ]
             ],
-            "product": ["iron-plate", 1]
+            "product": [
+                "iron-plate",
+                2
+            ]
         },
         {
             "name": "Iron Rod",
@@ -591,9 +725,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["iron-ingot", 1]
+                [
+                    "iron-ingot",
+                    1
+                ]
             ],
-            "product": ["iron-rod", 1]
+            "product": [
+                "iron-rod",
+                1
+            ]
         },
         {
             "name": "Wire",
@@ -601,9 +741,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["copper-ingot", 1]
+                [
+                    "copper-ingot",
+                    1
+                ]
             ],
-            "product": ["wire", 3]
+            "product": [
+                "wire",
+                2
+            ]
         },
         {
             "name": "Alternate: Iron Wire",
@@ -611,9 +757,15 @@
             "category": "crafting1",
             "time": 8,
             "ingredients": [
-                ["iron-ingot", 2]
+                [
+                    "iron-ingot",
+                    2
+                ]
             ],
-            "product": ["wire", 9]
+            "product": [
+                "wire",
+                9
+            ]
         },
         {
             "name": "Alternate: Caterium Wire",
@@ -621,19 +773,31 @@
             "category": "crafting1",
             "time": 8,
             "ingredients": [
-                ["caterium-ingot", 1]
+                [
+                    "caterium-ingot",
+                    1
+                ]
             ],
-            "product": ["wire", 9]
+            "product": [
+                "wire",
+                9
+            ]
         },
         {
             "name": "Cable",
             "key_name": "cable",
             "category": "crafting1",
-            "time": 4,
+            "time": 2,
             "ingredients": [
-                ["wire", 2]
+                [
+                    "wire",
+                    2
+                ]
             ],
-            "product": ["cable", 1]
+            "product": [
+                "cable",
+                1
+            ]
         },
         {
             "name": "Alternate: Rubber Cable",
@@ -641,20 +805,35 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["wire", 3],
-                ["rubber", 2]
+                [
+                    "wire",
+                    3
+                ],
+                [
+                    "rubber",
+                    2
+                ]
             ],
-            "product": ["cable", 10]
+            "product": [
+                "cable",
+                10
+            ]
         },
         {
             "name": "Biomass",
             "key_name": "biomass-from-leaves",
             "category": "crafting1",
-            "time": 4,
+            "time": 5,
             "ingredients": [
-                ["leaves", 10]
+                [
+                    "leaves",
+                    10
+                ]
             ],
-            "product": ["biomass", 6]
+            "product": [
+                "biomass",
+                5
+            ]
         },
         {
             "name": "Concrete",
@@ -662,19 +841,31 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["limestone", 3]
+                [
+                    "limestone",
+                    3
+                ]
             ],
-            "product": ["concrete", 1]
+            "product": [
+                "concrete",
+                1
+            ]
         },
         {
             "name": "Screw",
             "key_name": "screw",
             "category": "crafting1",
-            "time": 4,
+            "time": 6,
             "ingredients": [
-                ["iron-rod", 1]
+                [
+                    "iron-rod",
+                    1
+                ]
             ],
-            "product": ["screw", 6]
+            "product": [
+                "screw",
+                4
+            ]
         },
         {
             "name": "Alternate: Screw",
@@ -682,9 +873,15 @@
             "category": "crafting1",
             "time": 8,
             "ingredients": [
-                ["iron-ingot", 2]
+                [
+                    "iron-ingot",
+                    2
+                ]
             ],
-            "product": ["screw", 12]
+            "product": [
+                "screw",
+                12
+            ]
         },
         {
             "name": "Alternate: Steel Screw",
@@ -692,9 +889,15 @@
             "category": "crafting1",
             "time": 12,
             "ingredients": [
-                ["steel-beam", 1]
+                [
+                    "steel-beam",
+                    1
+                ]
             ],
-            "product": ["screw", 36]
+            "product": [
+                "screw",
+                36
+            ]
         },
         {
             "name": "Biomass",
@@ -702,9 +905,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["wood", 5]
+                [
+                    "wood",
+                    4
+                ]
             ],
-            "product": ["biomass", 25]
+            "product": [
+                "biomass",
+                20
+            ]
         },
         {
             "name": "Biomass",
@@ -712,9 +921,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["alien-carapace", 1]
+                [
+                    "alien-carapace",
+                    1
+                ]
             ],
-            "product": ["biomass", 100]
+            "product": [
+                "biomass",
+                100
+            ]
         },
         {
             "name": "Biomass",
@@ -722,9 +937,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["mycelia", 10]
+                [
+                    "mycelia",
+                    10
+                ]
             ],
-            "product": ["biomass", 10]
+            "product": [
+                "biomass",
+                10
+            ]
         },
         {
             "name": "Biofuel",
@@ -732,9 +953,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["biomass", 4]
+                [
+                    "biomass",
+                    4
+                ]
             ],
-            "product": ["biofuel", 2]
+            "product": [
+                "biofuel",
+                2
+            ]
         },
         {
             "name": "Color Cartridge",
@@ -742,29 +969,47 @@
             "category": "crafting1",
             "time": 40,
             "ingredients": [
-                ["flower-petals", 25]
+                [
+                    "flower-petals",
+                    25
+                ]
             ],
-            "product": ["color-cartridge", 50]
+            "product": [
+                "color-cartridge",
+                50
+            ]
         },
         {
             "name": "Steel Beam",
             "key_name": "steel-beam",
             "category": "crafting1",
-            "time": 6,
+            "time": 4,
             "ingredients": [
-                ["steel-ingot", 3]
+                [
+                    "steel-ingot",
+                    4
+                ]
             ],
-            "product": ["steel-beam", 1]
+            "product": [
+                "steel-beam",
+                1
+            ]
         },
         {
             "name": "Steel Pipe",
             "key_name": "steel-pipe",
             "category": "crafting1",
-            "time": 4,
+            "time": 6,
             "ingredients": [
-                ["steel-ingot", 1]
+                [
+                    "steel-ingot",
+                    3
+                ]
             ],
-            "product": ["steel-pipe", 1]
+            "product": [
+                "steel-pipe",
+                1
+            ]
         },
         {
             "name": "Reinforced Iron Plate",
@@ -772,10 +1017,19 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["iron-plate", 4],
-                ["screw", 24]
+                [
+                    "iron-plate",
+                    6
+                ],
+                [
+                    "screw",
+                    12
+                ]
             ],
-            "product": ["reinforced-iron-plate", 1]
+            "product": [
+                "reinforced-iron-plate",
+                1
+            ]
         },
         {
             "name": "Alternate: Reinforced Iron Plate",
@@ -783,10 +1037,19 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["iron-plate", 10],
-                ["screw", 24]
+                [
+                    "iron-plate",
+                    10
+                ],
+                [
+                    "screw",
+                    24
+                ]
             ],
-            "product": ["reinforced-iron-plate", 3]
+            "product": [
+                "reinforced-iron-plate",
+                3
+            ]
         },
         {
             "name": "Alternate: Stitched Iron Plate",
@@ -794,21 +1057,39 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["iron-plate", 6],
-                ["wire", 30]
+                [
+                    "iron-plate",
+                    6
+                ],
+                [
+                    "wire",
+                    30
+                ]
             ],
-            "product": ["reinforced-iron-plate", 3]
+            "product": [
+                "reinforced-iron-plate",
+                3
+            ]
         },
         {
             "name": "Rotor",
             "key_name": "rotor",
             "category": "crafting2",
-            "time": 10,
+            "time": 15,
             "ingredients": [
-                ["iron-rod", 3],
-                ["screw", 22]
+                [
+                    "iron-rod",
+                    5
+                ],
+                [
+                    "screw",
+                    25
+                ]
             ],
-            "product": ["rotor", 1]
+            "product": [
+                "rotor",
+                1
+            ]
         },
         {
             "name": "Alternate: Rotor",
@@ -816,21 +1097,39 @@
             "category": "crafting2",
             "time": 20,
             "ingredients": [
-                ["steel-pipe", 6],
-                ["wire", 20]
+                [
+                    "steel-pipe",
+                    6
+                ],
+                [
+                    "wire",
+                    20
+                ]
             ],
-            "product": ["rotor", 3]
+            "product": [
+                "rotor",
+                3
+            ]
         },
         {
             "name": "Modular Frame",
             "key_name": "modular-frame",
             "category": "crafting2",
-            "time": 15,
+            "time": 60,
             "ingredients": [
-                ["reinforced-iron-plate", 3],
-                ["iron-rod", 6]
+                [
+                    "reinforced-iron-plate",
+                    3
+                ],
+                [
+                    "iron-rod",
+                    12
+                ]
             ],
-            "product": ["modular-frame", 1]
+            "product": [
+                "modular-frame",
+                2
+            ]
         },
         {
             "name": "Alternate: Modular Frame",
@@ -838,10 +1137,19 @@
             "category": "crafting2",
             "time": 30,
             "ingredients": [
-                ["reinforced-iron-plate", 6],
-                ["steel-pipe", 6]
+                [
+                    "reinforced-iron-plate",
+                    6
+                ],
+                [
+                    "steel-pipe",
+                    6
+                ]
             ],
-            "product": ["modular-frame", 3]
+            "product": [
+                "modular-frame",
+                3
+            ]
         },
         {
             "name": "Encased Industrial Beam",
@@ -849,10 +1157,19 @@
             "category": "crafting2",
             "time": 15,
             "ingredients": [
-                ["steel-beam", 4],
-                ["concrete", 5]
+                [
+                    "steel-beam",
+                    4
+                ],
+                [
+                    "concrete",
+                    5
+                ]
             ],
-            "product": ["encased-industrial-beam", 1]
+            "product": [
+                "encased-industrial-beam",
+                1
+            ]
         },
         {
             "name": "Alternate: Encased Industrial Beam",
@@ -860,10 +1177,19 @@
             "category": "crafting2",
             "time": 30,
             "ingredients": [
-                ["steel-pipe", 18],
-                ["concrete", 10]
+                [
+                    "steel-pipe",
+                    18
+                ],
+                [
+                    "concrete",
+                    10
+                ]
             ],
-            "product": ["encased-industrial-beam", 3]
+            "product": [
+                "encased-industrial-beam",
+                3
+            ]
         },
         {
             "name": "Stator",
@@ -871,10 +1197,19 @@
             "category": "crafting2",
             "time": 10,
             "ingredients": [
-                ["steel-pipe", 3],
-                ["wire", 10]
+                [
+                    "steel-pipe",
+                    3
+                ],
+                [
+                    "wire",
+                    10
+                ]
             ],
-            "product": ["stator", 1]
+            "product": [
+                "stator",
+                1
+            ]
         },
         {
             "name": "Alternate: Stator",
@@ -882,10 +1217,19 @@
             "category": "crafting2",
             "time": 20,
             "ingredients": [
-                ["steel-pipe", 6],
-                ["quickwire", 20]
+                [
+                    "steel-pipe",
+                    6
+                ],
+                [
+                    "quickwire",
+                    20
+                ]
             ],
-            "product": ["stator", 3]
+            "product": [
+                "stator",
+                3
+            ]
         },
         {
             "name": "Motor",
@@ -893,10 +1237,19 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["rotor", 2],
-                ["stator", 2]
+                [
+                    "rotor",
+                    2
+                ],
+                [
+                    "stator",
+                    2
+                ]
             ],
-            "product": ["motor", 1]
+            "product": [
+                "motor",
+                1
+            ]
         },
         {
             "name": "Alternate: Motor",
@@ -904,11 +1257,23 @@
             "category": "crafting3",
             "time": 24,
             "ingredients": [
-                ["rotor", 2],
-                ["stator", 2],
-                ["crystal-oscillator", 1]
+                [
+                    "rotor",
+                    2
+                ],
+                [
+                    "stator",
+                    2
+                ],
+                [
+                    "crystal-oscillator",
+                    1
+                ]
             ],
-            "product": ["motor", 3]
+            "product": [
+                "motor",
+                3
+            ]
         },
         {
             "name": "Circuit Board",
@@ -916,10 +1281,19 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["wire", 12],
-                ["plastic", 6]
+                [
+                    "wire",
+                    12
+                ],
+                [
+                    "plastic",
+                    6
+                ]
             ],
-            "product": ["circuit-board", 2]
+            "product": [
+                "circuit-board",
+                2
+            ]
         },
         {
             "name": "Alternate: Circuit Board",
@@ -927,10 +1301,19 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["rubber", 16],
-                ["wire", 24]
+                [
+                    "rubber",
+                    16
+                ],
+                [
+                    "wire",
+                    24
+                ]
             ],
-            "product": ["circuit-board", 6]
+            "product": [
+                "circuit-board",
+                6
+            ]
         },
         {
             "name": "Alternate: Quickwire Circuit Board",
@@ -938,10 +1321,19 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["plastic", 12],
-                ["quickwire", 30]
+                [
+                    "plastic",
+                    12
+                ],
+                [
+                    "quickwire",
+                    30
+                ]
             ],
-            "product": ["circuit-board", 6]
+            "product": [
+                "circuit-board",
+                6
+            ]
         },
         {
             "name": "Plastic",
@@ -949,9 +1341,15 @@
             "category": "refining",
             "time": 8,
             "ingredients": [
-                ["crude-oil", 4]
+                [
+                    "crude-oil",
+                    4
+                ]
             ],
-            "product": ["plastic", 3]
+            "product": [
+                "plastic",
+                3
+            ]
         },
         {
             "name": "Alternate: Plastic",
@@ -959,10 +1357,19 @@
             "category": "crafting2",
             "time": 16,
             "ingredients": [
-                ["rubber", 8],
-                ["fuel", 5]
+                [
+                    "rubber",
+                    8
+                ],
+                [
+                    "fuel",
+                    5
+                ]
             ],
-            "product": ["plastic", 9]
+            "product": [
+                "plastic",
+                9
+            ]
         },
         {
             "name": "Fuel",
@@ -970,9 +1377,15 @@
             "category": "refining",
             "time": 8,
             "ingredients": [
-                ["crude-oil", 8]
+                [
+                    "crude-oil",
+                    8
+                ]
             ],
-            "product": ["fuel", 5]
+            "product": [
+                "fuel",
+                5
+            ]
         },
         {
             "name": "Rubber",
@@ -980,9 +1393,15 @@
             "category": "refining",
             "time": 8,
             "ingredients": [
-                ["crude-oil", 4]
+                [
+                    "crude-oil",
+                    4
+                ]
             ],
-            "product": ["rubber", 4]
+            "product": [
+                "rubber",
+                4
+            ]
         },
         {
             "name": "Heavy Modular Frame",
@@ -990,12 +1409,27 @@
             "category": "crafting3",
             "time": 30,
             "ingredients": [
-                ["modular-frame", 5],
-                ["steel-pipe", 15],
-                ["encased-industrial-beam", 5],
-                ["screw", 90]
+                [
+                    "modular-frame",
+                    5
+                ],
+                [
+                    "steel-pipe",
+                    15
+                ],
+                [
+                    "encased-industrial-beam",
+                    5
+                ],
+                [
+                    "screw",
+                    90
+                ]
             ],
-            "product": ["heavy-modular-frame", 1]
+            "product": [
+                "heavy-modular-frame",
+                1
+            ]
         },
         {
             "name": "Alternate: Heavy Modular Frame",
@@ -1003,12 +1437,27 @@
             "category": "crafting3",
             "time": 64,
             "ingredients": [
-                ["modular-frame", 8],
-                ["encased-industrial-beam", 10],
-                ["steel-pipe", 36],
-                ["concrete", 25]
+                [
+                    "modular-frame",
+                    8
+                ],
+                [
+                    "encased-industrial-beam",
+                    10
+                ],
+                [
+                    "steel-pipe",
+                    36
+                ],
+                [
+                    "concrete",
+                    25
+                ]
             ],
-            "product": ["heavy-modular-frame", 3]
+            "product": [
+                "heavy-modular-frame",
+                3
+            ]
         },
         {
             "name": "Computer",
@@ -1016,12 +1465,27 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["circuit-board", 10],
-                ["cable", 12],
-                ["plastic", 18],
-                ["screw", 60]
+                [
+                    "circuit-board",
+                    10
+                ],
+                [
+                    "cable",
+                    12
+                ],
+                [
+                    "plastic",
+                    18
+                ],
+                [
+                    "screw",
+                    60
+                ]
             ],
-            "product": ["computer", 1]
+            "product": [
+                "computer",
+                1
+            ]
         },
         {
             "name": "Alternate: Quickwire Computer",
@@ -1029,11 +1493,23 @@
             "category": "crafting3",
             "time": 64,
             "ingredients": [
-                ["circuit-board", 20],
-                ["quickwire", 80],
-                ["rubber", 48]
+                [
+                    "circuit-board",
+                    20
+                ],
+                [
+                    "quickwire",
+                    80
+                ],
+                [
+                    "rubber",
+                    48
+                ]
             ],
-            "product": ["computer", 3]
+            "product": [
+                "computer",
+                3
+            ]
         },
         {
             "name": "Alternate: Crystal Computer",
@@ -1041,10 +1517,19 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["circuit-board", 4],
-                ["crystal-oscillator", 1]
+                [
+                    "circuit-board",
+                    4
+                ],
+                [
+                    "crystal-oscillator",
+                    1
+                ]
             ],
-            "product": ["computer", 1]
+            "product": [
+                "computer",
+                1
+            ]
         },
         {
             "name": "Caterium Ingot",
@@ -1052,9 +1537,15 @@
             "category": "smelting1",
             "time": 4,
             "ingredients": [
-                ["caterium-ore", 3]
+                [
+                    "caterium-ore",
+                    3
+                ]
             ],
-            "product": ["caterium-ingot", 1]
+            "product": [
+                "caterium-ingot",
+                1
+            ]
         },
         {
             "name": "Quickwire",
@@ -1062,9 +1553,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["caterium-ingot", 1]
+                [
+                    "caterium-ingot",
+                    1
+                ]
             ],
-            "product": ["quickwire", 4]
+            "product": [
+                "quickwire",
+                4
+            ]
         },
         {
             "name": "Alternate: Quickwire",
@@ -1072,10 +1569,19 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["caterium-ingot", 1],
-                ["copper-ingot", 2]
+                [
+                    "caterium-ingot",
+                    1
+                ],
+                [
+                    "copper-ingot",
+                    2
+                ]
             ],
-            "product": ["quickwire", 12]
+            "product": [
+                "quickwire",
+                12
+            ]
         },
         {
             "name": "Supercomputer",
@@ -1083,12 +1589,27 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["computer", 2],
-                ["ai-limiter", 2],
-                ["high-speed-connector", 3],
-                ["plastic", 21]
+                [
+                    "computer",
+                    2
+                ],
+                [
+                    "ai-limiter",
+                    2
+                ],
+                [
+                    "high-speed-connector",
+                    3
+                ],
+                [
+                    "plastic",
+                    21
+                ]
             ],
-            "product": ["supercomputer", 1]
+            "product": [
+                "supercomputer",
+                1
+            ]
         },
         {
             "name": "High-Speed Connector",
@@ -1096,11 +1617,23 @@
             "category": "crafting3",
             "time": 24,
             "ingredients": [
-                ["quickwire", 40],
-                ["cable", 10],
-                ["plastic", 6]
+                [
+                    "quickwire",
+                    40
+                ],
+                [
+                    "cable",
+                    10
+                ],
+                [
+                    "plastic",
+                    6
+                ]
             ],
-            "product": ["high-speed-connector", 1]
+            "product": [
+                "high-speed-connector",
+                1
+            ]
         },
         {
             "name": "Alternate: High-Speed Connector",
@@ -1108,11 +1641,23 @@
             "category": "crafting3",
             "time": 48,
             "ingredients": [
-                ["quickwire", 66],
-                ["silica", 48],
-                ["rubber", 18]
+                [
+                    "quickwire",
+                    66
+                ],
+                [
+                    "silica",
+                    48
+                ],
+                [
+                    "rubber",
+                    18
+                ]
             ],
-            "product": ["high-speed-connector", 3]
+            "product": [
+                "high-speed-connector",
+                3
+            ]
         },
         {
             "name": "A.I. Limiter",
@@ -1120,10 +1665,19 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["circuit-board", 2],
-                ["quickwire", 18]
+                [
+                    "circuit-board",
+                    2
+                ],
+                [
+                    "quickwire",
+                    18
+                ]
             ],
-            "product": ["ai-limiter", 1]
+            "product": [
+                "ai-limiter",
+                1
+            ]
         },
         {
             "name": "Fabric",
@@ -1131,10 +1685,19 @@
             "category": "crafting2",
             "time": 4,
             "ingredients": [
-                ["mycelia", 1],
-                ["biomass", 5]
+                [
+                    "mycelia",
+                    1
+                ],
+                [
+                    "biomass",
+                    5
+                ]
             ],
-            "product": ["fabric", 1]
+            "product": [
+                "fabric",
+                1
+            ]
         },
         {
             "name": "Filter",
@@ -1142,11 +1705,23 @@
             "category": "crafting3",
             "time": 8,
             "ingredients": [
-                ["coal", 5],
-                ["rubber", 2],
-                ["fabric", 2]
+                [
+                    "coal",
+                    5
+                ],
+                [
+                    "rubber",
+                    2
+                ],
+                [
+                    "fabric",
+                    2
+                ]
             ],
-            "product": ["filter", 1]
+            "product": [
+                "filter",
+                1
+            ]
         },
         {
             "name": "Beacon",
@@ -1154,12 +1729,27 @@
             "category": "crafting3",
             "time": 8,
             "ingredients": [
-                ["iron-plate", 3],
-                ["iron-rod", 1],
-                ["wire", 15],
-                ["cable", 2]
+                [
+                    "iron-plate",
+                    3
+                ],
+                [
+                    "iron-rod",
+                    1
+                ],
+                [
+                    "wire",
+                    15
+                ],
+                [
+                    "cable",
+                    2
+                ]
             ],
-            "product": ["beacon", 1]
+            "product": [
+                "beacon",
+                1
+            ]
         },
         {
             "name": "Alternate: Beacon",
@@ -1167,21 +1757,39 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["steel-beam", 1],
-                ["steel-pipe", 4],
-                ["crystal-oscillator", 1]
+                [
+                    "steel-beam",
+                    1
+                ],
+                [
+                    "steel-pipe",
+                    4
+                ],
+                [
+                    "crystal-oscillator",
+                    1
+                ]
             ],
-            "product": ["beacon", 5]
+            "product": [
+                "beacon",
+                5
+            ]
         },
         {
             "name": "Quartz Crystal",
             "key_name": "quartz-crystal",
             "category": "crafting1",
-            "time": 4,
+            "time": 8,
             "ingredients": [
-                ["raw-quartz", 2]
+                [
+                    "raw-quartz",
+                    5
+                ]
             ],
-            "product": ["quartz-crystal", 1]
+            "product": [
+                "quartz-crystal",
+                3
+            ]
         },
         {
             "name": "Crystal Oscillator",
@@ -1189,11 +1797,23 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["quartz-crystal", 10],
-                ["cable", 14],
-                ["reinforced-iron-plate", 4]
+                [
+                    "quartz-crystal",
+                    10
+                ],
+                [
+                    "cable",
+                    14
+                ],
+                [
+                    "reinforced-iron-plate",
+                    4
+                ]
             ],
-            "product": ["crystal-oscillator", 1]
+            "product": [
+                "crystal-oscillator",
+                1
+            ]
         },
         {
             "name": "Alternate: Crystal Oscillator",
@@ -1201,11 +1821,23 @@
             "category": "crafting3",
             "time": 64,
             "ingredients": [
-                ["quartz-crystal", 20],
-                ["rubber", 24],
-                ["ai-limiter", 1]
+                [
+                    "quartz-crystal",
+                    20
+                ],
+                [
+                    "rubber",
+                    24
+                ],
+                [
+                    "ai-limiter",
+                    1
+                ]
             ],
-            "product": ["crystal-oscillator", 3]
+            "product": [
+                "crystal-oscillator",
+                3
+            ]
         },
         {
             "name": "Black Powder",
@@ -1213,10 +1845,19 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["coal", 1],
-                ["sulfur", 2]
+                [
+                    "coal",
+                    1
+                ],
+                [
+                    "sulfur",
+                    2
+                ]
             ],
-            "product": ["black-powder", 1]
+            "product": [
+                "black-powder",
+                1
+            ]
         },
         {
             "name": "Alternate: Black Powder",
@@ -1224,10 +1865,19 @@
             "category": "crafting2",
             "time": 16,
             "ingredients": [
-                ["sulfur", 2],
-                ["compacted-coal", 1]
+                [
+                    "sulfur",
+                    2
+                ],
+                [
+                    "compacted-coal",
+                    1
+                ]
             ],
-            "product": ["black-powder", 4]
+            "product": [
+                "black-powder",
+                4
+            ]
         },
         {
             "name": "Nobelisk",
@@ -1235,11 +1885,23 @@
             "category": "crafting3",
             "time": 20,
             "ingredients": [
-                ["black-powder", 5],
-                ["steel-pipe", 5],
-                ["beacon", 1]
+                [
+                    "black-powder",
+                    5
+                ],
+                [
+                    "steel-pipe",
+                    5
+                ],
+                [
+                    "beacon",
+                    1
+                ]
             ],
-            "product": ["nobelisk", 1]
+            "product": [
+                "nobelisk",
+                1
+            ]
         },
         {
             "name": "Alternate: Nobelisk",
@@ -1247,21 +1909,39 @@
             "category": "crafting3",
             "time": 40,
             "ingredients": [
-                ["black-powder", 10],
-                ["steel-pipe", 10],
-                ["crystal-oscillator", 1]
+                [
+                    "black-powder",
+                    10
+                ],
+                [
+                    "steel-pipe",
+                    10
+                ],
+                [
+                    "crystal-oscillator",
+                    1
+                ]
             ],
-            "product": ["nobelisk", 3]
+            "product": [
+                "nobelisk",
+                3
+            ]
         },
         {
             "name": "Biomass",
             "key_name": "biomass-from-alien-organs",
             "category": "crafting1",
-            "time": 4,
+            "time": 8,
             "ingredients": [
-                ["alien-organs", 1]
+                [
+                    "alien-organs",
+                    1
+                ]
             ],
-            "product": ["biomass", 100]
+            "product": [
+                "biomass",
+                200
+            ]
         },
         {
             "name": "Cartridge",
@@ -1269,10 +1949,19 @@
             "category": "crafting2",
             "time": 20,
             "ingredients": [
-                ["nobelisk", 1],
-                ["steel-pipe", 4]
+                [
+                    "nobelisk",
+                    1
+                ],
+                [
+                    "steel-pipe",
+                    4
+                ]
             ],
-            "product": ["cartridge", 4]
+            "product": [
+                "cartridge",
+                4
+            ]
         },
         {
             "name": "Alternate: Compacted Coal",
@@ -1280,10 +1969,19 @@
             "category": "crafting2",
             "time": 6,
             "ingredients": [
-                ["coal", 3],
-                ["sulfur", 3]
+                [
+                    "coal",
+                    3
+                ],
+                [
+                    "sulfur",
+                    3
+                ]
             ],
-            "product": ["compacted-coal", 3]
+            "product": [
+                "compacted-coal",
+                3
+            ]
         },
         {
             "name": "Alternate: Wood Coal",
@@ -1291,9 +1989,15 @@
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["wood", 3]
+                [
+                    "wood",
+                    3
+                ]
             ],
-            "product": ["coal", 10]
+            "product": [
+                "coal",
+                10
+            ]
         },
         {
             "name": "Alternate: Biomass Coal",
@@ -1301,9 +2005,15 @@
             "category": "crafting1",
             "time": 8,
             "ingredients": [
-                ["biomass", 5]
+                [
+                    "biomass",
+                    5
+                ]
             ],
-            "product": ["coal", 6]
+            "product": [
+                "coal",
+                6
+            ]
         },
         {
             "name": "Turbofuel",
@@ -1311,10 +2021,19 @@
             "category": "crafting2",
             "time": 16,
             "ingredients": [
-                ["fuel", 5],
-                ["compacted-coal", 4]
+                [
+                    "fuel",
+                    5
+                ],
+                [
+                    "compacted-coal",
+                    4
+                ]
             ],
-            "product": ["turbofuel", 5]
+            "product": [
+                "turbofuel",
+                5
+            ]
         },
         {
             "name": "Alternate: Concrete",
@@ -1322,20 +2041,35 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["silica", 1],
-                ["limestone", 4]
+                [
+                    "silica",
+                    1
+                ],
+                [
+                    "limestone",
+                    4
+                ]
             ],
-            "product": ["concrete", 3]
+            "product": [
+                "concrete",
+                3
+            ]
         },
         {
             "name": "Silica",
             "key_name": "silica",
             "category": "crafting1",
-            "time": 4,
+            "time": 8,
             "ingredients": [
-                ["raw-quartz", 2]
+                [
+                    "raw-quartz",
+                    3
+                ]
             ],
-            "product": ["silica", 3]
+            "product": [
+                "silica",
+                5
+            ]
         },
         {
             "name": "Alternate: Silica",
@@ -1343,10 +2077,19 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["raw-quartz", 4],
-                ["limestone", 2]
+                [
+                    "raw-quartz",
+                    4
+                ],
+                [
+                    "limestone",
+                    2
+                ]
             ],
-            "product": ["silica", 9]
+            "product": [
+                "silica",
+                9
+            ]
         },
         {
             "name": "Aluminum Ingot",
@@ -1354,10 +2097,19 @@
             "category": "smelting2",
             "time": 4,
             "ingredients": [
-                ["bauxite", 7],
-                ["silica", 6]
+                [
+                    "bauxite",
+                    7
+                ],
+                [
+                    "silica",
+                    6
+                ]
             ],
-            "product": ["aluminum-ingot", 2]
+            "product": [
+                "aluminum-ingot",
+                2
+            ]
         },
         {
             "name": "Alclad Aluminum Sheet",
@@ -1365,10 +2117,35 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["aluminum-ingot", 3],
-                ["copper-ingot", 2]
+                [
+                    "aluminum-ingot",
+                    3
+                ],
+                [
+                    "copper-ingot",
+                    2
+                ]
             ],
-            "product": ["alclad-aluminum-sheet", 3]
+            "product": [
+                "alclad-aluminum-sheet",
+                3
+            ]
+        },
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                [
+                    "copper-ingot",
+                    2
+                ]
+            ],
+            "product": [
+                "copper-sheet",
+                1
+            ]
         },
         {
             "name": "Heat Sink",
@@ -1376,10 +2153,19 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["alclad-aluminum-sheet", 4],
-                ["rubber", 10]
+                [
+                    "alclad-aluminum-sheet",
+                    4
+                ],
+                [
+                    "rubber",
+                    10
+                ]
             ],
-            "product": ["heat-sink", 1]
+            "product": [
+                "heat-sink",
+                1
+            ]
         },
         {
             "name": "Alternate: Heat Sink",
@@ -1387,10 +2173,19 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["alclad-aluminum-sheet", 8],
-                ["wire", 36]
+                [
+                    "alclad-aluminum-sheet",
+                    8
+                ],
+                [
+                    "wire",
+                    36
+                ]
             ],
-            "product": ["heat-sink", 3]
+            "product": [
+                "heat-sink",
+                3
+            ]
         },
         {
             "name": "Radio Control Unit",
@@ -1398,12 +2193,27 @@
             "category": "crafting3",
             "time": 24,
             "ingredients": [
-                ["heat-sink", 4],
-                ["rubber", 24],
-                ["crystal-oscillator", 1],
-                ["computer", 1]
+                [
+                    "heat-sink",
+                    4
+                ],
+                [
+                    "rubber",
+                    24
+                ],
+                [
+                    "crystal-oscillator",
+                    1
+                ],
+                [
+                    "computer",
+                    1
+                ]
             ],
-            "product": ["radio-control-unit", 1]
+            "product": [
+                "radio-control-unit",
+                1
+            ]
         },
         {
             "name": "Alternate: Radio Control Unit",
@@ -1411,11 +2221,23 @@
             "category": "crafting3",
             "time": 48,
             "ingredients": [
-                ["heat-sink", 10],
-                ["supercomputer", 1],
-                ["quartz-crystal", 30]
+                [
+                    "heat-sink",
+                    10
+                ],
+                [
+                    "supercomputer",
+                    1
+                ],
+                [
+                    "quartz-crystal",
+                    30
+                ]
             ],
-            "product": ["radio-control-unit", 3]
+            "product": [
+                "radio-control-unit",
+                3
+            ]
         },
         {
             "name": "Turbo Motor",
@@ -1423,12 +2245,27 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["heat-sink", 4],
-                ["radio-control-unit", 2],
-                ["motor", 4],
-                ["rubber", 40]
+                [
+                    "heat-sink",
+                    4
+                ],
+                [
+                    "radio-control-unit",
+                    2
+                ],
+                [
+                    "motor",
+                    4
+                ],
+                [
+                    "rubber",
+                    40
+                ]
             ],
-            "product": ["turbo-motor", 1]
+            "product": [
+                "turbo-motor",
+                1
+            ]
         },
         {
             "name": "Alternate: Turbo Motor",
@@ -1436,12 +2273,27 @@
             "category": "crafting3",
             "time": 64,
             "ingredients": [
-                ["motor", 8],
-                ["radio-control-unit", 4],
-                ["ai-limiter", 8],
-                ["stator", 8]
+                [
+                    "motor",
+                    8
+                ],
+                [
+                    "radio-control-unit",
+                    4
+                ],
+                [
+                    "ai-limiter",
+                    8
+                ],
+                [
+                    "stator",
+                    8
+                ]
             ],
-            "product": ["turbo-motor", 3]
+            "product": [
+                "turbo-motor",
+                3
+            ]
         },
         {
             "name": "Battery",
@@ -1449,12 +2301,27 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["alclad-aluminum-sheet", 8],
-                ["wire", 24],
-                ["sulfur", 20],
-                ["plastic", 9]
+                [
+                    "alclad-aluminum-sheet",
+                    8
+                ],
+                [
+                    "wire",
+                    24
+                ],
+                [
+                    "sulfur",
+                    20
+                ],
+                [
+                    "plastic",
+                    9
+                ]
             ],
-            "product": ["battery", 3]
+            "product": [
+                "battery",
+                3
+            ]
         },
         {
             "name": "Uranium Cell",
@@ -1462,10 +2329,19 @@
             "category": "crafting2",
             "time": 60,
             "ingredients": [
-                ["uranium", 45],
-                ["concrete", 9]
+                [
+                    "uranium",
+                    45
+                ],
+                [
+                    "concrete",
+                    9
+                ]
             ],
-            "product": ["uranium-cell", 10]
+            "product": [
+                "uranium-cell",
+                10
+            ]
         },
         {
             "name": "Alternate: Uranium Cell",
@@ -1473,12 +2349,27 @@
             "category": "crafting3",
             "time": 120,
             "ingredients": [
-                ["uranium", 45],
-                ["sulfur", 45],
-                ["silica", 45],
-                ["quickwire", 60]
+                [
+                    "uranium",
+                    45
+                ],
+                [
+                    "sulfur",
+                    45
+                ],
+                [
+                    "silica",
+                    45
+                ],
+                [
+                    "quickwire",
+                    60
+                ]
             ],
-            "product": ["uranium-cell", 35]
+            "product": [
+                "uranium-cell",
+                35
+            ]
         },
         {
             "name": "Electromagnetic Control Rod",
@@ -1486,10 +2377,19 @@
             "category": "crafting2",
             "time": 30,
             "ingredients": [
-                ["stator", 3],
-                ["ai-limiter", 2]
+                [
+                    "stator",
+                    3
+                ],
+                [
+                    "ai-limiter",
+                    2
+                ]
             ],
-            "product": ["em-control-rod", 1]
+            "product": [
+                "em-control-rod",
+                1
+            ]
         },
         {
             "name": "Alternate: Electromagnetic Control Rod",
@@ -1497,10 +2397,19 @@
             "category": "crafting2",
             "time": 60,
             "ingredients": [
-                ["stator", 6],
-                ["high-speed-connector", 3]
+                [
+                    "stator",
+                    6
+                ],
+                [
+                    "high-speed-connector",
+                    3
+                ]
             ],
-            "product": ["em-control-rod", 3]
+            "product": [
+                "em-control-rod",
+                3
+            ]
         },
         {
             "name": "Nuclear Fuel Rod",
@@ -1508,11 +2417,23 @@
             "category": "crafting3",
             "time": 150,
             "ingredients": [
-                ["uranium-cell", 25],
-                ["encased-industrial-beam", 3],
-                ["em-control-rod", 5]
+                [
+                    "uranium-cell",
+                    25
+                ],
+                [
+                    "encased-industrial-beam",
+                    3
+                ],
+                [
+                    "em-control-rod",
+                    5
+                ]
             ],
-            "product": ["nuclear-fuel-rod", 1]
+            "product": [
+                "nuclear-fuel-rod",
+                1
+            ]
         },
         {
             "name": "Alternate: Nuclear Fuel Rod",
@@ -1520,12 +2441,27 @@
             "category": "crafting3",
             "time": 300,
             "ingredients": [
-                ["uranium-cell", 50],
-                ["em-control-rod", 10],
-                ["crystal-oscillator", 3],
-                ["beacon", 6]
+                [
+                    "uranium-cell",
+                    50
+                ],
+                [
+                    "em-control-rod",
+                    10
+                ],
+                [
+                    "crystal-oscillator",
+                    3
+                ],
+                [
+                    "beacon",
+                    6
+                ]
             ],
-            "product": ["nuclear-fuel-rod", 3]
+            "product": [
+                "nuclear-fuel-rod",
+                3
+            ]
         },
         {
             "name": "Iodine Infused Filter",
@@ -1533,11 +2469,23 @@
             "category": "crafting3",
             "time": 16,
             "ingredients": [
-                ["filter", 1],
-                ["quickwire", 8],
-                ["rubber", 2]
+                [
+                    "filter",
+                    1
+                ],
+                [
+                    "quickwire",
+                    8
+                ],
+                [
+                    "rubber",
+                    2
+                ]
             ],
-            "product": ["iodine-infused-filter", 1]
+            "product": [
+                "iodine-infused-filter",
+                1
+            ]
         }
     ],
     "resources": [

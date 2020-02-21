@@ -532,9 +532,35 @@
             "key_name": "versatile-framework",
             "tier": 2,
             "stack_size": 100
+        },
+        {
+            "name": "Automated Wiring",
+            "key_name": "automated-wiring",
+            "tier": 2,
+            "stack_size": 100
         }
     ],
     "recipes": [
+        {
+            "name": "Automated Wiring",
+            "key_name": "automated-wiring",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                [
+                    "stator",
+                    1
+                ],
+                [
+                    "cable",
+                    20
+                ]
+            ],
+            "product": [
+                "automated-wiring",
+                1
+            ]
+        },
         {
             "name": "Versatile Framework",
             "key_name": "versatile-framework",
@@ -1155,7 +1181,7 @@
             "name": "Encased Industrial Beam",
             "key_name": "encased-industrial-beam",
             "category": "crafting2",
-            "time": 15,
+            "time": 10,
             "ingredients": [
                 [
                     "steel-beam",
@@ -1195,7 +1221,7 @@
             "name": "Stator",
             "key_name": "stator",
             "category": "crafting2",
-            "time": 10,
+            "time": 12,
             "ingredients": [
                 [
                     "steel-pipe",
@@ -1203,7 +1229,7 @@
                 ],
                 [
                     "wire",
-                    10
+                    8
                 ]
             ],
             "product": [
